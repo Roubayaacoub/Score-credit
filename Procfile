@@ -1,0 +1,1 @@
+web: uvnicorn API:app
