@@ -39,7 +39,7 @@ data_final['probabilities'] = data_final['probabilities'].fillna(1)
 st.title('Scoring client pour crédit')
 st.subheader("Prédictions du score bancaire du client")
 id_input = st.text_input('Merci de saisir l\'identifiant du client:', )
-st.write('Exemple d\'ID client: 100042 ; 124289 ; 456221')
+st.write('Exemple d\'ID client: 124289 ; 456221')
 
 @st.cache
 def requet_ID(ID):
