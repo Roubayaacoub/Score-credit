@@ -105,7 +105,7 @@ def comparaison_indiv(data_train, data_test,id_input):
                                                    feature_names=data_train_drop.columns,discretize_continuous=False,
                                                   verbose=True, mode='classification')
     exp = explainer.explain_instance(data_test_drop.iloc[ID[0]], clf_final.predict_proba)
-    st.subheader('Les indicateurs influençants le decision')
+    st.subheader('Les indicateurs influençants la decision')
     components.html(exp.as_html(), height=800)
 
 
