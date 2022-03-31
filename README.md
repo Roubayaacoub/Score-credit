@@ -20,6 +20,11 @@ Projet 7: Implémentez un modèle de scoring _ Openclassroom
     * Fichier python : Dashboard
  
     * Fichier python : API
+    
+    
+    * PDF : Note Méthodologique
+    
+    * PDF : Support
  
  
 url du Dahboard deploy sur heroku avec streamlit: https://score-credits.herokuapp.com/
